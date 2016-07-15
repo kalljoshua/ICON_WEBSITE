@@ -68,10 +68,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php
 topbanner();
 about();
-team();
 services();
+team();
 work();
-portfolio(); 
+//portfolio(); 
 contact();
 footer();
 

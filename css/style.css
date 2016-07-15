@@ -493,20 +493,20 @@ top: 9%;
 }
 /*-- about--*/
 .all_pad{
-	padding:100px 0;
+	padding:60px 0;
 }
 h3.title {
     font-size: 34px;
     color: #FF9036;
     font-weight: 600;
-    margin-bottom: 55px;
+    margin-bottom: 10px;
 }
 p.para {
     width: 70%;
-    margin: 0 auto 55px;
+    margin: 0 auto 20px;
     color: #464646;
     line-height: 2em;
-    font-size: 19px;
+    font-size: 17px;
 }
 p.para span {
     color: #05BEF6;
@@ -566,7 +566,7 @@ p.para span {
 .hi-icon-effect-7 .hi-icon:after {
 	top: -8px;
 	left: -8px;
-	padding: 8px;
+	padding: 5px;
 	z-index: -1;
 	opacity: 0;
 }
@@ -676,7 +676,7 @@ a.hi-icon.icon3 {
     line-height: 2.2em;
 }
 .yes_marg{
-	margin-top:50px;
+	margin-top:0px;
 }
 /*-- //about--*/
 /*-- philosophy--*/
@@ -1492,11 +1492,11 @@ p.copy-rights a:hover{
 	}
 	p.para {
 		width: 84%;
-		margin: 0 auto 35px;
-		font-size: 17px;
+		margin: 0 auto 5px;
+		font-size: 7px;
 	}
 	h3.title {
-		margin-bottom: 35px;
+		margin-bottom: 5px;
 	}
 	.abt-grid {
 		padding: 0 12px;
@@ -1508,7 +1508,7 @@ p.copy-rights a:hover{
 		padding: 83px 0px 0;
 	}
 	.all_pad {
-		padding: 60px 0;
+		padding: 20px 0;
 	}
 	.banner-info h3 {
 		font-size: 53px;
@@ -1781,7 +1781,8 @@ p.copy-rights {
 	}
 
 	.abt-grid:nth-child(5) {
-		margin-top: 50px;
+		margin-top: 0px;
+		border:dotted;
 	}
 	.about_opa {
 		padding: 123px 0px 0;
@@ -2447,11 +2448,11 @@ h3.title span{
 /*about us*/
 
 .skills{
-	padding:6em 0;
+	padding:0.0em 0;
 }
 /*--skills--*/
 .skills-left {
-    padding: 0 8em 0 0;
+    padding: 0 0em 0 0;
 }
 .skills .nav-tabs {
     border: none;
@@ -2519,50 +2520,112 @@ h3.title span{
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 6px;
+    height: 16px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
     -moz-border-radius: 2px;
     background: #E4E4E4;
-    border-radius: 6px;
+    border-radius: 16px;
 }
 .bar_group__bar.thin {
 	width: 0%;
-	height: 6px;
+	height: 16px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	background: #EF9F2B;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	-webkit-transition: width 1s;
 	transition: width 1s;
 	-moz-transition: width 1s;
-	border-radius: 6px;
+	border-radius: 16px;
 }
 
 .skills-left {
-    padding: 0 4em 0 0;
+    padding: 0 0em 0 0;
 }
 .skills-left {
     padding: 0;
 }
 .skills-right {
-    margin-top: 1em;
+    margin-top: 0em;
 }
 .skills {
-    padding: 3em 0;
+    padding: 0em 0;
 }
 .skills .nav-tabs li:nth-child(2) {
-    margin: 0 0.5em;
+    margin: 0 0em;
 }
 .skills {
-    padding: 1.5em 0;
+    padding: 0em 0;
 }
 .skills {
-    padding: 5em 0;
+    padding: 0em 0;
+}
+.title {
+    margin-bottom: 1em;
+}
+.bar_group__bar.thin {
+    margin-bottom: 1em;
+}
+.bar_group__bar.thin {
+    margin-bottom: 1.5em;
+}
+.bar_group__bar.thin {
+    margin-bottom: 1em;
+}
+.tab-content {
+    margin-top: 1em;
+}
+.tab-content ul li {
+    font-size: 0.9em;
 }
 /*--//skills--*/
 
+
+/*-- banner-bottom --*/
+.banner-bottom{
+	padding:0em 0;
+}
+p.quia{
+	color: #999;
+    line-height: 1.8em;
+    width: 75%;
+    text-align: center;
+    margin: 2em auto 0;
+}
+p.quia i{
+	font-style:normal;
+	display:block;
+	margin:1em 0 0;
+}
+.banner-bottom-grids {
+    margin: 0em 0 0;
+}
+.banner-bottom-grid-left ul li{
+	display: inline-block;
+    margin-bottom: 0em;
+    font-size: 14px;
+    text-transform: capitalize;
+	color:#999;
+}
+.banner-bottom-grid-left ul li a{
+	text-decoration:none;
+	color:#999;
+}
+.banner-bottom-grid-left ul li i{
+/*-- agileits --*/
+	padding: .1em 1em;
+    background: #49C0DB;
+    color: #fff;
+    margin-right: 2em;
+    border-radius: 60%;
+	font-style:normal;
+}
+.banner-bottom-grid-right img {
+    padding: .1em;
+    border: 1px dotted #999;
+}
 
 
 

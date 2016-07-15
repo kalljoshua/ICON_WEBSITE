@@ -279,60 +279,137 @@ function work(){
 ?>
 
 <!-- work -->
-<div id="work" class="work all_pad text-center">
+<div id="work" class="work all_pad text-center" style="background-color:#FFE673;">
 	<div class="container">
 		<h3 class="title">WORK STEPS</h3>
 		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
-		fugiat nulla pariatur. Excepteur sint occaecat.</p>
-		<div class="col-md-8 where-right">
-			<div class="wel-left">
-				<div class="work-left">
-					<h4>01</h4>
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>	
+			
+		
+		<!--banner-starts-->
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="col-md-8 where-right">
+								<div class="wel-left">
+									<div class="work-left">
+										<h4>01</h4>
+									</div>
+									<div class="work-right text-left">
+										<h5>PROJECT UNDERSTANDING</h5>
+										<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+											fugiat nulla pariatur. Excepteur sint occaecat.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="wel-right ">
+									<div class="content-item item-image1">
+										<div class="overlay"></div>
+										  <div class="corner-overlay-content"></div>
+										  <div class="overlay-content">
+										  </div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+						</li><li>
+							<div class="col-md-8 where-right mySlides 4">
+								<div class="wel-right2">
+									<div class="content-item item-image2">
+										<div class="overlay"></div>
+										  <div class="corner-overlay-content"></div>
+										  <div class="overlay-content">
+										  </div>
+									</div>
+								</div>
+								<div class="wel-left2">
+									<div class="work-left">
+										<h4>02</h4>
+									</div>
+									<div class="work-right text-left">
+										<h5>RESEARCH & PLANNING 2</h5>
+										<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+											fugiat nulla pariatur. Excepteur sint occaecat.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+						</li><li>
+							<div class="col-md-8 where-right">
+								<div class="wel-left">
+									<div class="work-left">
+										<h4>01</h4>
+									</div>
+									<div class="work-right text-left">
+										<h5>PROJECT UNDERSTANDING</h5>
+										<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+											fugiat nulla pariatur. Excepteur sint occaecat.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="wel-right ">
+									<div class="content-item item-image1">
+										<div class="overlay"></div>
+										  <div class="corner-overlay-content"></div>
+										  <div class="overlay-content">
+										  </div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+						</li><li>
+							<div class="col-md-8 where-right mySlides 4">
+								<div class="wel-right2">
+									<div class="content-item item-image2">
+										<div class="overlay"></div>
+										  <div class="corner-overlay-content"></div>
+										  <div class="overlay-content">
+										  </div>
+									</div>
+								</div>
+								<div class="wel-left2">
+									<div class="work-left">
+										<h4>02</h4>
+									</div>
+									<div class="work-right text-left">
+										<h5>RESEARCH & PLANNING 4</h5>
+										<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+											fugiat nulla pariatur. Excepteur sint occaecat.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+						</li>
+					</ul>
 				</div>
-				<div class="work-right text-left">
-					<h5>PROJECT UNDERSTANDING</h5>
-					<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-						fugiat nulla pariatur. Excepteur sint occaecat.</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="wel-right ">
-				<div class="content-item item-image1">
-					<div class="overlay"></div>
-					  <div class="corner-overlay-content"></div>
-					  <div class="overlay-content">
-					  </div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
+			
+
+	<!--banner-end-->
+	
+		
 		<div class="clearfix"></div>
-		<div class="col-md-8 where-right no-marg">
-			<div class="wel-right2">
-				<div class="content-item item-image2">
-					<div class="overlay"></div>
-					  <div class="corner-overlay-content"></div>
-					  <div class="overlay-content">
-					  </div>
-				</div>
-			</div>
-			<div class="wel-left2">
-				<div class="work-left">
-					<h4>02</h4>
-				</div>
-				<div class="work-right text-left">
-					<h5>RESEARCH & PLANNING</h5>
-					<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-						fugiat nulla pariatur. Excepteur sint occaecat.</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="clearfix"></div>
+
 	</div>
 </div>
-
+<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 
 <?php
 }
@@ -459,6 +536,57 @@ function team(){
 			</div>
 			<div class="clearfix"></div>
 	</div>
+	<div height="10px"> <br/><br/></div>
+	<div class="container">
+		
+			<div class="col-md-3 about-poleft">
+				<div class="about_img"><img src="images/team4.jpg" alt="">
+				  <h5>Victoria<span>Web Designer</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="images/team2.jpg" alt="">
+				  <h5>Henry<span>Manager</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="images/team1.jpg" alt="">
+				  <h5>Shevena<span>Project Manager</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-md-3 about-poleft ">
+				<div class="about_img"><img src="images/team3.jpg" alt="">
+				  <h5>Patrick<span>Assistant</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+	</div>
 </div>
 <!-- //team -->
 <?php
@@ -469,61 +597,76 @@ function team(){
 function about(){
 ?>
 <!-- about -->
-<div id="about" class="about all_pad text-center">
+<div id="about">
+<div class="about all_pad text-center">
+	<div class="container">
+		<h3 class="title">ABOUT CONSORTIUM</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon1"></a>
+			</div>
+			<h4>BRANDING</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="col-md-4 abt-grid yes_marg">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon2"></a>
+			</div>
+			<h4>MARKETING</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon3"></a>
+			</div>
+			<h4>PROMOTION</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
 	<!--skills-->
 	<div class="skills">
 		<div class="container">
-			<div class="title">
-				<h3>Skills</h3>
-				<p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus. </p>
-			</div>
 			<div class="skills-row">
 				<div class="col-md-6 skills-left">
-					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-						<ul id="myTab" class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">History</a></li>
-							<li role="presentation"><a href="#carl" role="tab" id="carl-tab" data-toggle="tab" aria-controls="carl">Our Goal</a></li>
-							<li role="presentation"><a href="#james" role="tab" id="james-tab" data-toggle="tab" aria-controls="james">Achievements</a></li>
-						</ul>
-						<div id="myTabContent" class="tab-content">
-							<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
-								<div class="tabcontent-grids">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing. Praesent sit amet justo diam. Quisque sagittis egestas sem vitae vestibulum. Quisque nec lacus ornare, volutpat arcu in, lacinia dolor.</p>
-								</div>
-							</div>
-							<div role="tabpanel" class="tab-pane fade" id="carl" aria-labelledby="carl-tab">
-								<div class="tabcontent-grids">
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse 
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-										cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-										anim id est laborum.</p>
+					<div class="banner-bottom" id="banner-bottom">
+						<div class="container">
+						<h3>WHY ICON 256 </h3><br/>
+							<div class="banner-bottom-grids">
+							
+								<div class="col-md-6 banner-bottom-grid-left">
+								<p>The reasons why we believe that Icon 256 is the most optimal choice for outsourcing your software
+								development to are numerous, so below we provided just a handful of examples of what sets us apart
+								from the competition:</p>
 									<ul>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Sed tincidunt lorem sed </li>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Excepteur sint occaecat </li>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Duis aute irure dolor in </li>
+										<li><i>1.</i><a class="link link--kumya" href="single.html"><span data-letters="Qui ratione voluptatem dolores eos qui">Qui ratione voluptatem dolores</span></a></li>
+										<li><i>2.</i><a class="link link--kumya" href="single.html"><span data-letters="Dolores eos qui ratione voluptatem sequi">Dolores eos qui ratione volu</span></a></li>
+										<li><i>3.</i><a class="link link--kumya" href="single.html"><span data-letters="Voluptatem quia voluptas sit asper">Voluptatem quia voluptas sit asper</span></a></li>
+										<li><i>4.</i><a class="link link--kumya" href="single.html"><span data-letters="Consectetur adipiscing elit, incid">Consectetur adipiscing elit, incid</span></a></li>
+										<li><i>5.</i><a class="link link--kumya" href="single.html"><span data-letters="Quia voluptas sit aspernatur aut odit">Quia voluptas sit aspernatur aut</span></a></li>
+										<li><i>6.</i><a class="link link--kumya" href="single.html"><span data-letters="Eos qui ratione voluptatem sequi">Eos qui ratione voluptatem sequi</span></a></li>
 									</ul>
 								</div>
-							</div>
-							<div role="tabpanel" class="tab-pane fade" id="james" aria-labelledby="james-tab">
-								<div class="tabcontent-grids">
-									<p>Excepteur sint occaecat 
-										cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-										anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-										cillum dolore eu fugiat nulla pariatur. </p>
-									<ul>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Sed tincidunt lorem sed </li>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Excepteur sint occaecat </li>
-										<li><span class="glyphicon glyphicon-menu-right"></span> Duis aute irure dolor in </li>
-									</ul>
-								</div>
+								<div class="clearfix"> </div>
 							</div>
 						</div>
-					</div>
+	</div>
+<!-- //banner-bottom -->
 				</div>
+				<h3>WHY ICON 256 </h3><br/>
 				<div class="col-md-6 skills-right bar_group">
+					
 					<div class='bar_group__bar thin' label='Lorem ipsum &nbsp;&nbsp; 80%' value='200'></div>
 					<div class='bar_group__bar thin' label='Quis nostrud &nbsp;&nbsp; 100%' value='250'></div>
 					<div class='bar_group__bar thin' label='Sed do eiusmod &nbsp;&nbsp; 72%' value='180'></div>
+					<div class='bar_group__bar thin' label='Ut enim adnim &nbsp;&nbsp; 88%' value='220'></div>
+					<div class='bar_group__bar thin' label='Ut enim adnim &nbsp;&nbsp; 88%' value='220'></div>
 					<div class='bar_group__bar thin' label='Ut enim adnim &nbsp;&nbsp; 88%' value='220'></div>
 				</div>
 				<!--bar-js-->
