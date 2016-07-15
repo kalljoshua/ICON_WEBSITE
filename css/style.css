@@ -2265,3 +2265,325 @@ h3.title {
 		padding: 107px 0px 0;
 	}	
 }
+
+
+/* added css scripts*/
+
+/*-- welcome --*/
+.welcome{
+	background:#49C0DB;
+}
+.welcome h3,.testimonials h3,.banner-bottom h4,.services h3,.gallery h3,h3.title,.contact h3{
+	font-size:2.5em;
+	color:#212121;
+	text-align:center;
+	position:relative;
+	padding-bottom:.5em;
+}
+.welcome h3:after,.testimonials h3:after,.banner-bottom h4:after,.contact h3:after,.services h3:after,.gallery h3:after,h3.title:after{
+	content: '';
+    background: #fff;
+    width: 5%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 47.5%;
+}
+.welcome h3 span{
+	background:url('../images/img-sp.png') no-repeat -6px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.testimonials h3 span{
+	background:url('../images/img-sp.png') no-repeat -56px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.banner-bottom h4 span{
+	background:url('../images/img-sp.png') no-repeat -109px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.services h3 span{
+	background:url('../images/img-sp.png') no-repeat -158px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.gallery h3 span{
+	background:url('../images/img-sp.png') no-repeat -213px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+h3.title span{
+	background:url('../images/img-sp.png') no-repeat -267px -40px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.contact h3 span{
+	background:url('../images/img-sp.png') no-repeat -320px -37px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.welcome-grid i{
+	font-size: 1.5em;
+    color: #fff;
+    padding: .5em;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    background: #E6B61C;
+	left: .4em;
+}
+.welcome-grid h4 a{
+	font-size: 1.3em;
+    color: #212121;
+    line-height:1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin:0.5em 0 1em;
+    display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+.welcome-grids {
+    margin: 3em 0 0;
+}
+.welcome-grid p{
+	line-height:1.8em;
+	color:#f5f5f5;
+	padding-left: .8em;
+}
+.welcome-grid:hover i{
+	color: #E6B61C;
+	background:#fff;
+	border: 2px solid #E6B61C;
+}
+.welcome-grid:hover p{
+	color:#212121;
+}
+/*-- //welcome --*/
+
+.welcome{
+	padding:5em 0;
+}
+
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	line-height: 1;
+	display: inline-block;
+}
+/* Kumya */
+.link--kumya {
+	overflow: hidden;
+	padding:0;
+	line-height: 1;
+	z-index: 9999;
+	padding: 10px;
+    display: inline-flex;
+}
+
+.link--kumya:hover {
+	color:#000;
+}
+
+.link--kumya::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background:#525252;
+	-webkit-transform: translate3d(101%,0,0);
+	transform: translate3d(101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+.link--kumya:hover::after,.welcome-grid:hover .link--kumya::after{
+/*-- w3layouts --*/
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.link--kumya span {
+	display: block;
+	position: relative;
+}
+
+.link--kumya span::before {
+	content: attr(data-letters);
+	position: absolute;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0%;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kumya:hover span::before,.welcome-grid:hover .link--kumya span::before{
+	width: 100%;
+}
+/*about us*/
+
+.skills{
+	padding:6em 0;
+}
+/*--skills--*/
+.skills-left {
+    padding: 0 8em 0 0;
+}
+.skills .nav-tabs {
+    border: none;
+}
+.skills .nav-tabs li:nth-child(2) {
+    margin: 0 1.5em;
+}
+.nav-tabs li a {
+    border: 1px solid #D8D8D8;
+    padding: .6em 2.5em;
+    color: #999;
+    border-radius: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #FFF;
+    cursor: default;
+    background-color: #FE7200;
+    border-color: #FE7200;
+}
+.nav-tabs > li > a:hover {
+    color: #FFF;
+    background-color: #FE7200;
+    border-color: #FE7200;
+}
+.tab-content {
+    margin-top: 1.5em;
+}
+.tab-content ul li {
+    display: block;
+    color: #999;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.tab-content ul li span.glyphicon {
+    font-size: .8em;
+    margin-right: .5em;
+}
+.nav-tabs li a:after {
+    content: '';
+    border-top: 8px solid;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    bottom: -9px;
+    left: 38%;
+    color: #fff;
+}
+.nav-tabs li.active a:after {
+    color: #FE7200;
+}
+/*--progress-bars--*/
+.b_label {
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+.bar_group {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+}
+.bar_group__bar.thin::before, .bar_group__bar.thick::before {
+    display: block;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 6px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    background: #E4E4E4;
+    border-radius: 6px;
+}
+.bar_group__bar.thin {
+	width: 0%;
+	height: 6px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	background: #EF9F2B;
+	margin-bottom: 2em;
+	-webkit-transition: width 1s;
+	transition: width 1s;
+	-moz-transition: width 1s;
+	border-radius: 6px;
+}
+
+.skills-left {
+    padding: 0 4em 0 0;
+}
+.skills-left {
+    padding: 0;
+}
+.skills-right {
+    margin-top: 1em;
+}
+.skills {
+    padding: 3em 0;
+}
+.skills .nav-tabs li:nth-child(2) {
+    margin: 0 0.5em;
+}
+.skills {
+    padding: 1.5em 0;
+}
+.skills {
+    padding: 5em 0;
+}
+/*--//skills--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

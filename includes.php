@@ -343,44 +343,60 @@ function services(){
 ?>
 
 <!-- services -->
-<div id="services" class="services all_pad text-center">
-	<div class="container">
-		<h3 class="title">SERVICES</h3>
-		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
-		fugiat nulla pariatur. Excepteur sint occaecat.</p>
-		<div class="col-md-6 services-left">
-			<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
-			<div class="head_ser"><h5>1</h5></div>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum 
-			fugiat </p>
-		</div>
-		<div class="col-md-6 services-right">
-			<span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-			<div class="head_ser"><h5>2</h5></div>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum 
-			fugiat </p>
-		</div>
-		<div class="col-md-6 services-left mar-top">
-			<span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
-			<div class="head_ser"><h5>3</h5></div>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum 
-			fugiat </p>
-		</div>
-		<div class="col-md-6 services-right mar-top">
-			<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-			<div class="head_ser"><h5>4</h5></div>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum 
-			fugiat </p>
-		</div>
-		<div class="clearfix"></div>
-		<div class="ser-bottom">
-				<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-				<div class="head_ser"><h5>5</h5></div>
-				<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum 
-				fugiat </p>
+<!-- welcome -->
+<div id="services">
+	<div class="welcome">
+		<div class="container">
+			<h3><span></span>Special Services</h3>
+			<div class="welcome-grids">
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html"><span data-letters="Minim veniam adminim">Minim veniam adminim</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html">
+					<span data-letters="Ullam corporis suscipit">Ullam corporis suscipit</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html"><span data-letters="Ut aliquid ex ea comm">Ut aliquid ex ea comm</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="welcome-grids">
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html"><span data-letters="Minim veniam adminim">Minim veniam adminim</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html">
+					<span data-letters="Ullam corporis suscipit">Ullam corporis suscipit</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="col-md-4 welcome-grid">
+					<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
+					<h4><a class="link link--kumya" href="single.html"><span data-letters="Ut aliquid ex ea comm">Ut aliquid ex ea comm</span></a></h4>
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
+						laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
 		</div>
 	</div>
 </div>
+<!-- //welcome -->
 <!-- //services -->
 <?php
 }
@@ -454,35 +470,71 @@ function about(){
 ?>
 <!-- about -->
 <div id="about" class="about all_pad text-center">
-	<div class="container">
-		<h3 class="title">ABOUT ICON256</h3>
-		<p class="para">The company is located<span> in kampala(kisaasi)</span> along the northern bypass
-		ICON256 is an Excellent company with wide vast of IT related ability.</p>
-		<div class="col-md-4 abt-grid">
-			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-				<a href="#" class="hi-icon icon1"></a>
+	<!--skills-->
+	<div class="skills">
+		<div class="container">
+			<div class="title">
+				<h3>Skills</h3>
+				<p>Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus. </p>
 			</div>
-			<h4>SOFTWARE DEV'T</h4>
-			<p>The company carries out all kinds of system development from android, web,embedded systems.</p>
-		</div>
-		<div class="col-md-4 abt-grid yes_marg">
-			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-				<a href="#" class="hi-icon icon2"></a>
+			<div class="skills-row">
+				<div class="col-md-6 skills-left">
+					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+						<ul id="myTab" class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">History</a></li>
+							<li role="presentation"><a href="#carl" role="tab" id="carl-tab" data-toggle="tab" aria-controls="carl">Our Goal</a></li>
+							<li role="presentation"><a href="#james" role="tab" id="james-tab" data-toggle="tab" aria-controls="james">Achievements</a></li>
+						</ul>
+						<div id="myTabContent" class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+								<div class="tabcontent-grids">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing. Praesent sit amet justo diam. Quisque sagittis egestas sem vitae vestibulum. Quisque nec lacus ornare, volutpat arcu in, lacinia dolor.</p>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="carl" aria-labelledby="carl-tab">
+								<div class="tabcontent-grids">
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse 
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+										cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+										anim id est laborum.</p>
+									<ul>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Sed tincidunt lorem sed </li>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Excepteur sint occaecat </li>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Duis aute irure dolor in </li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="james" aria-labelledby="james-tab">
+								<div class="tabcontent-grids">
+									<p>Excepteur sint occaecat 
+										cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+										anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+										cillum dolore eu fugiat nulla pariatur. </p>
+									<ul>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Sed tincidunt lorem sed </li>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Excepteur sint occaecat </li>
+										<li><span class="glyphicon glyphicon-menu-right"></span> Duis aute irure dolor in </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 skills-right bar_group">
+					<div class='bar_group__bar thin' label='Lorem ipsum &nbsp;&nbsp; 80%' value='200'></div>
+					<div class='bar_group__bar thin' label='Quis nostrud &nbsp;&nbsp; 100%' value='250'></div>
+					<div class='bar_group__bar thin' label='Sed do eiusmod &nbsp;&nbsp; 72%' value='180'></div>
+					<div class='bar_group__bar thin' label='Ut enim adnim &nbsp;&nbsp; 88%' value='220'></div>
+				</div>
+				<!--bar-js-->
+				<script src="js/bars.js"></script>
+				<!--bar-js-->
+				<div class="clearfix"> </div>
 			</div>
-			<h4>NETWORKING</h4>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
 		</div>
-		<div class="col-md-4 abt-grid">
-			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-				<a href="#" class="hi-icon icon3"></a>
-			</div>
-			<h4>IT OUT SOURCING</h4>
-			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-		</div>
-		<div class="clearfix"></div>
 	</div>
+	<!--//skills-->
+	
 </div>
 <!-- //about -->
 <?php
